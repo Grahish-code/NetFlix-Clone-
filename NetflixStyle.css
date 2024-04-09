@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=Martel+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(Assets/images/bg1.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-size:max(1200px,100vw) ;
+    background-repeat: no-repeat;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position:absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+.buttons{
+    position: relative;
+    z-index: 10;
+   
+    
+}
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+    gap: 23px;
+    position: relative;
+    /* z-index: 10; */
+    font-family: 'Martel Sans', sans-serif;
+    padding: 0 30px;
+}
+
+span1{
+  
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+}
+
+span2{
+    font-size: 24px;
+    text-align: center;
+}
+span3{
+    font-size: 20px;
+    text-align: center;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(53, 52, 52);
+}
+.btn{
+    padding: 3px 8px;
+    background-color: rgba(248, 243, 243, 0.021);
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+.main input{
+    padding: 7px 110px 28px 14px;
+    border-radius: 4px;
+    color: white;
+  
+    font-size: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid  rgba(240, 236, 236, 0.3);
+ 
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
+}
+
+.first{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 70vw;
+margin: auto;
+color: white;
+height: 70vh;
+}
+
+.secImg{
+    position:relative;
+}
+
+.secImg img{
+    width: 37.5vw;
+    
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.first span4{
+    font-size: 48px;
+}
+.first span5{
+    font-size: 24px;
+  
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    
+}
+
+.content2{
+    display: flex;
+    flex-direction: column; 
+}
+.first span6{
+    font-size: 48px;
+}
+.first span7{
+    font-size: 24px;
+}
+
+.secImg2{
+    position:relative;
+}
+
+.secImg2 img{
+    width: 37.5vw;
+    
+    position: relative;
+    z-index: 10;
+}
+
+.secImg2 video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+ 
+    object-fit: contain;
+
+}
+.faq{
+    background-color: black;
+    color: white;
+    /* height: 1000px; */
+}
+.faq h1{
+    text-align: center;
+    padding: 34px;
+    font-size: 42px;
+}
+
+.faqbox svg{
+filter: invert(1);
+}
+.faqbox{
+    transition: all 0.35s ease-out;
+    display: flex;
+    background-color: #a9a9a93b;
+    padding: 30px;
+    max-width: 70vw;
+    margin: 10px auto;
+    font-size: 23px;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgba(169, 169, 169, 0.366);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+.footer{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    column-gap: 20px;
+   
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+footer .questions{
+    padding: 34px 0px;
+}
+
+.footer a{
+    /* text-decoration: none; */
+    color: grey;
+}
+footer .Question {
+    padding: 34px 0;
+}
+.sepration{
+    position: relative;
+    z-index: 20;
+}
